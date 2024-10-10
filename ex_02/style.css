@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#item1 { grid-area: first; }
+#item1 {
+    background-image: url(./gif-loading-files-update-ark-os-first-before-using-v0-ubbi1p7z7euc1.gif);
+    animation-duration: 5s;
+}
+#item2 { grid-area: second; }
+#item2 {
+    background-image: url(./gif-loading-files-update-ark-os-first-before-using-v0-ubbi1p7z7euc1.gif);
+    animation-duration: 5s;
+}
+#item3 { grid-area: third; }
+#item3 {
+    background-image: url(./gif-loading-files-update-ark-os-first-before-using-v0-ubbi1p7z7euc1.gif);
+    animation-duration: 5s;
+}
+#item4 { grid-area: last; }
+#item4 {
+    background-image: url(./gif-loading-files-update-ark-os-first-before-using-v0-ubbi1p7z7euc1.gif);
+    animation-duration: 5s;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'first second'
+    'third last';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    height: calc(100vh - 20px);
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

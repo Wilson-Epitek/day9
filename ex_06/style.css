@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'first second'
+    'third last';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    height: calc(100vh - 20px);
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#particles-js1{
+    width: 100%;
+    height: 100%;
+}
